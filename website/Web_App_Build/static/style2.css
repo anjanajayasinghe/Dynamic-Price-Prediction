@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.background{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    
+}
+
+
+.content-wrapper .title{
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #000000
+} 
+.content-wrapper .form{
+    width: 100%;
+    align-self: center;
+} 
+
+.content-wrapper .form .inputfield{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.content-wrapper .form .inputfield label{
+    width: 200px;
+    color: #000000;
+    margin-right: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+  .content-wrapper .form .inputfield .btn{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 18px; 
+    border: 0px;
+    background:  #1f3bb3;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    font-family: sans-serif;
+}
+.content-wrapper .result p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.883);
+    font-size: 18px;
+    font-weight: bold;
+    font-family:"Lucida Console", "Courier New", monospace;
+}
+
+.content-wrapper .slider {
+    position: relative;top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 40px;
+    padding: 20px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 15px 40px #7E6D5766;
+}
+.content-wrapper .slider p {
+    font-size: 26px;
+    font-weight: 800;
+    font-family: Open Sans;
+    padding-left: 30px;
+    color: black;
+}
+.content-wrapper .slider input[type="range"] {
+  	width: 300px;
+ 	height: 10px;
+  	background: rgb(0, 0, 0);
+  	border: none;
+  	outline: none;
+}
+.content-wrapper .slider input[type="range"]::-webkit-slider-thumb {
+   	-webkit-appearance: none !important;
+    width: 30px;
+    height:30px;
+    background: black;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.content-wrapper .slider input[type="range"]::-webkit-slider-thumb:hover {
+    background: black;
+ } 

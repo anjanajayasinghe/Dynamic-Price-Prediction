@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  top: 0%;
+}
+
+.main-panel {
+  align-items: center;
+  background-color: #F4F5F7;
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+  height: 100vh;
+}
+
+
+
+  /* Style the links inside the navigation bar */
+
+.main-panel .content-wrapper .title {
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .content-wrapper.form {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+  }
+  
+.content-wrapper .form .inputfield{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    color: #F4F5F7;
+}
+  
+.content-wrapper .form .inputfield label{
+     width: 200px;
+     color: #000000;
+     font-family: sans-serif;
+     margin-right: 10px;
+     font-size: 14px;
+     width: 100%;
+}
+
+.content-wrapper .form .inputfield .custom_select{
+  width: 100%;
+}
+
+.content-wrapper .form .inputfield .input{
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+
+.content-wrapper .form .inputfield .custom_select select{
+  position: inherit;
+  width: 100%;
+  height: 50%;
+  border: 0px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #d5dbd9;
+  border-radius: 4px;
+}
+
+.content-wrapper .form .inputfield .btn{
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 15px; 
+  border: 0px;
+  background:  #1f3bb3;
+  color: #F4F5F7;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+
+.content-wrapper .result p{
+  text-align: center;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
